@@ -16,8 +16,8 @@ export default {
 				100: '25rem',
 			},
 			backgroundImage: {
-				circle: "url('src/assets/images/bg-circle.png')",
-				wave: "url('src/assets/images/bg-wave.png')",
+				circle: "url('assets/images/bg-circle.png')",
+				wave: "url('assets/images/bg-wave.png')",
 			},
 			colors: {
 				'text-primary': '#333333',

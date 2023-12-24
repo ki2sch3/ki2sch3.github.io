@@ -9,7 +9,7 @@ const Header = () => {
 			<nav className='px-4 lg:px-6 py-2.5'>
 				<div className='flex flex-wrap items-center justify-between max-w-screen-xl mx-auto'>
 					<a href='/' className='flex'>
-						<img src='src/assets/images/logo.png' className='h-8' alt='Logo' />
+						<img src='assets/images/logo.png' className='h-8' alt='Logo' />
 						<span className='self-center text-xl font-semibold whitespace-nowrap'>kir4che</span>
 					</a>
 					<div className='items-center justify-between hidden w-full lg:flex lg:w-auto'>

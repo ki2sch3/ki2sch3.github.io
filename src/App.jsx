@@ -45,7 +45,7 @@ const App = () => {
 						<hr className='relative w-full border-4 border-pink-300 bottom-2' />
 					</div>
 				</div>
-				<img src='src/assets/images/banner.png' className='w-72' alt='banner' />
+				<img src='assets/images/banner.png' className='w-72' alt='banner' />
 			</div>
 			<Skill />
 			<Experience />

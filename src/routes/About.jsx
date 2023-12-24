@@ -4,7 +4,7 @@ const About = () => {
 	return (
 		<Layout>
 			<div className='flex flex-col items-center justify-center gap-8 py-12 bg-pink-100 lg:gap-16 lg:flex-row'>
-				<img src='src/assets/images/molly.jpg' className='object-cover w-96 h-80' alt='banner' />
+				<img src='assets/images/molly.jpg' className='object-cover w-96 h-80' alt='banner' />
 				<div className='flex flex-col items-center max-w-md lg:items-start'>
 					<p className='px-3 text-sm text-white bg-pink-500 border-2 border-pink-500 lg:mx-0 rounded-t-xl rounded-br-xl w-fit'>
 						嗨，我是
@@ -49,7 +49,7 @@ const About = () => {
 					<h2 className='pb-1 mb-5 border-b-4 border-pink-500 w-fit'>學習歷程</h2>
 					<div className='flex flex-col-reverse justify-between gap-2 mb-6 xs:gap-0 xs:flex-row'>
 						<div className='flex gap-3'>
-							<img src='src/assets/images/ntut.jpg' className='object-cover w-16' alt='ntut' />
+							<img src='assets/images/ntut.jpg' className='object-cover w-16' alt='ntut' />
 							<div>
 								<h3>國立臺北科技大學</h3>
 								<p className='text-sm opacity-80'>資訊與財金管理系</p>
@@ -59,7 +59,7 @@ const About = () => {
 					</div>
 					<div className='flex flex-col-reverse justify-between gap-2 xs:flex-row xs:gap-0'>
 						<div className='flex gap-3'>
-							<img src='src/assets/images/slhs.jpg' className='object-cover w-16' alt='slhs' />
+							<img src='assets/images/slhs.jpg' className='object-cover w-16' alt='slhs' />
 							<div>
 								<h3>臺北市立士林高級商業職業學校</h3>
 								<p className='text-sm opacity-80'>資料處理科</p>
@@ -74,7 +74,7 @@ const About = () => {
 					<div className='grid w-full grid-cols-2 gap-4 lg:grid-cols-3'>
 						<div className='bg-white rounded-b-lg shadow-md lg:w-72'>
 							<img
-								src='src/assets/images/paint.png'
+								src='assets/images/paint.png'
 								className='object-cover object-center w-full h-40 rounded-t-lg md:h-48'
 								alt='paint'
 							/>
@@ -82,7 +82,7 @@ const About = () => {
 						</div>
 						<div className='bg-white rounded-b-lg shadow-md lg:w-72'>
 							<img
-								src='src/assets/images/digitalnotebook.png'
+								src='assets/images/digitalnotebook.png'
 								className='object-cover object-center w-full h-40 md:h-48'
 								alt='digital-notebook'
 							/>
@@ -90,7 +90,7 @@ const About = () => {
 						</div>
 						<div className='bg-white rounded-b-lg shadow-md lg:w-72'>
 							<img
-								src='src/assets/images/beading.png'
+								src='assets/images/beading.png'
 								className='object-cover object-center w-full h-40 rounded-t-lg md:h-48'
 								alt='beading'
 							/>
@@ -98,7 +98,7 @@ const About = () => {
 						</div>
 						<div className='bg-white rounded-b-lg shadow-md lg:w-72'>
 							<img
-								src='src/assets/images/food.jpg'
+								src='assets/images/food.jpg'
 								className='object-cover object-center w-full h-40 rounded-t-lg md:h-48'
 								alt='food'
 							/>
@@ -106,7 +106,7 @@ const About = () => {
 						</div>
 						<div className='bg-white rounded-b-lg shadow-md lg:w-72'>
 							<img
-								src='src/assets/images/bass.jpg'
+								src='assets/images/bass.jpg'
 								className='object-cover object-center w-full h-40 rounded-t-lg md:h-48'
 								alt='bass'
 							/>
@@ -114,7 +114,7 @@ const About = () => {
 						</div>
 						<div className='bg-white rounded-b-lg shadow-md lg:w-72'>
 							<img
-								src='src/assets/images/lol.jpg'
+								src='assets/images/lol.jpg'
 								className='object-cover object-center w-full h-40 rounded-t-lg md:h-48'
 								alt='lol'
 							/>
