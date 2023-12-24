@@ -6,20 +6,23 @@ import About from './routes/About'
 import Works from './routes/Works'
 import './style.css'
 
-const router = createBrowserRouter([
-	{
-		path: '/',
-		element: <App />,
-	},
-	{
-		path: '/about',
-		element: <About />,
-	},
-	{
-		path: '/works',
-		element: <Works />,
-	},
-])
+const router = createBrowserRouter(
+	[
+		{
+			path: '/',
+			element: <App />,
+		},
+		{
+			path: '/about',
+			element: <About />,
+		},
+		{
+			path: '/works',
+			element: <Works />,
+		},
+	],
+	{ basename: '/' }
+)
 
 ReactDOM.createRoot(document.getElementById('root')).render(
 	<React.StrictMode>
