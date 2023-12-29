@@ -9,7 +9,7 @@ const Portfolio = () => {
 		<>
 			<Video video={video} open={video !== ''} setOpen={setVideo} targetRef={targetRef} key={video} />
 			<div id='portfolio' ref={targetRef} className='pt-16 mx-auto'>
-				<h2 className='pb-1 mx-auto mb-4 border-b-4 border-pink-500 w-fit'>作品集</h2>
+				<h2 className='pb-1 mx-auto mb-4 border-b-4 border-pink-500 w-fit'>小小作品集</h2>
 				<p className='font-light text-center'>以下作品皆可點擊標題前往網站，或者點擊圖片觀看展示影片。</p>
 				<div className='flex flex-col flex-wrap justify-center gap-4 mt-8 sm:flex-row'>
 					<section className='px-3 py-2 space-y-2 rounded-md sm:w-72 md:w-92'>
