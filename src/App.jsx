@@ -48,8 +48,8 @@ const App = () => {
 				<img src='assets/images/banner.png' className='w-72' alt='banner' />
 			</div>
 			<Skill />
-			<Experience />
 			<Portfolio />
+			<Experience />
 			<Contact />
 		</Layout>
 	)

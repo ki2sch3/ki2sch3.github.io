@@ -4,7 +4,11 @@ const About = () => {
 	return (
 		<Layout>
 			<div className='flex flex-col items-center justify-center gap-8 py-12 bg-pink-100 lg:gap-16 lg:flex-row'>
-				<img src='assets/images/molly.jpg' className='object-cover w-96 h-80' alt='banner' />
+				<img
+					src='assets/images/molly.jpg'
+					className='object-cover rounded w-96 h-80 hover:origin-center hover:-rotate-3 hover:duration-300 hover:ease-linear hover:scale-105'
+					alt='banner'
+				/>
 				<div className='flex flex-col items-center max-w-md lg:items-start'>
 					<p className='px-3 text-sm text-white bg-pink-500 border-2 border-pink-500 lg:mx-0 rounded-t-xl rounded-br-xl w-fit'>
 						嗨，我是

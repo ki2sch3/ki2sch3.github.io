@@ -1,12 +1,12 @@
 const Experience = () => {
 	return (
-		<div id='experience' className='max-w-screen-sm px-4 py-8 mx-auto space-y-8 xs:px-8 lg:px-0 lg:py-16'>
+		<div id='experience' className='max-w-screen-sm px-4 py-16 mx-auto space-y-6 xs:px-8 lg:px-0'>
 			<h2 className='pb-1 mx-auto border-b-4 border-pink-500 w-fit'>工作經歷</h2>
 			<div className='space-y-4'>
 				<details className='group space-y-3 [&_summary::-webkit-details-marker]:hidden' open>
 					<summary className='flex items-center justify-between px-4 py-3 font-medium tracking-wide text-white bg-pink-500 rounded-md cursor-pointer'>
 						<p className='flex flex-col justify-between w-full pl-2 pr-4 font-medium xs:flex-row'>
-							<span>IT 實習生 @ mrhost</span>
+							<span>前端工程實習生 @ mrhost</span>
 							<span>2022.11 － 2023.05</span>
 						</p>
 						<svg

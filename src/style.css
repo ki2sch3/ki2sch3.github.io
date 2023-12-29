@@ -29,3 +29,51 @@ a,
 button {
 	@apply outline-none;
 }
+
+.gmail__icon,
+.linkedin__icon,
+.instagram__icon,
+.github__icon {
+	@apply w-8 h-8 cursor-pointer;
+}
+
+.gmail__icon:hover img {
+	@apply duration-300 ease-in scale-105;
+	content: url('assets/icons/gmail-color.png');
+}
+
+.linkedin__icon:hover img {
+	@apply duration-300 ease-in scale-105;
+	content: url('assets/icons/linkedin-color.png');
+}
+
+.instagram__icon:hover img {
+	@apply duration-300 ease-in scale-105;
+	content: url('assets/icons/instagram-color.png');
+}
+
+.github__icon:hover img {
+	@apply duration-300 ease-in scale-105;
+	content: url('assets/icons/github-color.png');
+}
+
+.work__mask {
+	@apply relative transition-transform duration-500 ease-in-out shadow cursor-pointer hover:-translate-y-2;
+}
+
+.work__mask .work__mask__title,
+.work__mask .work__mask__bg {
+	@apply hidden;
+}
+
+.work__mask:hover .work__mask__title {
+	@apply absolute z-10 flex gap-1 -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2;
+}
+
+.work__mask:hover .work__mask__title span {
+	@apply [text-shadow:_0_1px_0_rgb(0_0_0_/_65%)] font-medium text-white;
+}
+
+.work__mask:hover .work__mask__bg {
+	@apply absolute top-0 bottom-0 left-0 right-0 block bg-black opacity-40;
+}

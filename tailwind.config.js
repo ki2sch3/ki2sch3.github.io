@@ -13,11 +13,12 @@ export default {
 			},
 			width: {
 				88: '22rem',
+				92: '23rem',
 				100: '25rem',
 			},
 			backgroundImage: {
-				circle: "url('assets/images/bg-circle.png')",
-				wave: "url('assets/images/bg-wave.png')",
+				circle: "url('../assets/images/bg-circle.png')",
+				wave: "url('../assets/images/bg-wave.png')",
 			},
 			colors: {
 				'text-primary': '#333333',
@@ -30,7 +31,7 @@ export default {
 					300: '#FFD1DA',
 					400: '#FFB8C9',
 					500: '#FF9CB6',
-					600: '#FF7EA1',
+					600: '#FF799D',
 					700: '#FF3D74',
 				},
 			},
