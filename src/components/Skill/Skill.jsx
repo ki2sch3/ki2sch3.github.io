@@ -62,7 +62,7 @@ const Skill = () => {
 			},
 			{
 				name: 'Material UI',
-				icon: '../assets/icons/materialui.png',
+				icon: 'assets/icons/materialui.png',
 				desc: "React UI framework implementing Google's Material Design.",
 			},
 		],

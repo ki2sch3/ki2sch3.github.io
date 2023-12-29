@@ -11,7 +11,7 @@ const Video = ({ video, open, setOpen, targetRef }) => {
 	return (
 		<div className={`${open ? 'block' : 'hidden'} relative top-0 left-0`}>
 			<video width='800' className='fixed top-0 bottom-0 left-0 right-0 z-30 m-auto rounded-md' preload controls>
-				<source src={`../assets/videos/${video}.mp4`} type='video/mp4' />
+				<source src={`assets/videos/${video}.mp4`} type='video/mp4' />
 			</video>
 			<div className='absolute z-20 w-screen h-screen bg-black opacity-50' onClick={() => setOpen('')} />
 		</div>

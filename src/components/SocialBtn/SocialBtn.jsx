@@ -20,7 +20,7 @@ const socials = [
 const SocialBtn = () =>
 	socials.map((social) => (
 		<a href={social.link} target='_blank' className={`${social.title}__icon`}>
-			<img src={`../assets/icons/${social.title}.png`} alt={social.title} />
+			<img src={`assets/icons/${social.title}.png`} alt={social.title} />
 		</a>
 	))
 
