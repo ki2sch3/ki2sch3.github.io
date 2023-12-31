@@ -46,7 +46,7 @@ const Experience = () => {
 							<li>維使用 Bootstrap 5 構建一頁式網站</li>
 							<li>透過 SiteMinder 協助旅館上架資訊、房型，以及調整價格。</li>
 							<li>建立 SOP 確保日常工作流程的正確及一致性</li>
-							<li>於 Wordpress 撰寫 SEO 文章</li>
+							<li>於 Wordpress 撰寫 SEO 文章，並協助提交 Sitemap。</li>
 						</ul>
 						<ul className='flex items-center flex-wrap tracking-wide gap-2 pt-2 text-[0.8rem] font-light'>
 							{['App Script', 'HTML', 'CSS', 'BootStrap 5', 'SiteMinder', 'WordPress'].map((item, index) => (

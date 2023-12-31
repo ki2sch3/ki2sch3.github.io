@@ -30,18 +30,21 @@ const About = () => {
 					</div>
 				</div>
 			</div>
-			<div className='max-w-4xl px-4 py-12 mx-auto space-y-10 lg:px-0'>
+			<div className='max-w-4xl px-4 py-12 mx-auto space-y-12 lg:px-0'>
 				<section>
 					<h2 className='pb-1 mb-5 border-b-4 border-pink-500 w-fit'>性格特質</h2>
 					<div className='space-y-3'>
 						<h3 className='text-xl font-bold tracking-wide text-pink-600'>ISTJ（代表動物：河狸）</h3>
-						<ul className='pl-5 leading-9 list-disc'>
-							<li>責任感極強的使命必達型工作者</li>
-							<li>對任何事都認真而專注，擁有縝密、嚴謹的工作思維。</li>
-							<li>善於訂定規範、整理 + 優化的雙軌式工作風格</li>
-						</ul>
+						<div className='flex flex-col gap-2 sm:gap-4 sm:items-center sm:flex-row'>
+							<img src='assets/images/beaver.png' className='object-contain w-36' alt='16personalities' />
+							<ul className='pl-5 leading-9 list-disc'>
+								<li>責任感極強的使命必達型工作者</li>
+								<li>對任何事都認真而專注，擁有縝密、嚴謹的工作思維。</li>
+								<li>善於訂定規範、整理 + 優化的雙軌式工作風格</li>
+							</ul>
+						</div>
 						<ul className='flex flex-wrap items-center tracking-wide gap-2 pt-2 text-[0.8rem] font-light'>
-							{['內斂慢熱', '隨和', '坦率', '喜歡嘗試', '善於獨立作業'].map((item, index) => (
+							{['熱衷學習', '喜歡嘗試', '善於獨立作業', '坦率', '耐心', '慢熱'].map((item, index) => (
 								<li key={index} className='px-3.5 py-0.5 rounded-full bg-pink-200'>
 									{item}
 								</li>
