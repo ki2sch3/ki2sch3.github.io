@@ -195,10 +195,7 @@ const Skill = () => {
 													content={
 														skill.desc !== '' &&
 														skill.desc.split(',').map((item, index) => (
-															<li
-																className={`text-left ${skill.desc.includes(',') ? 'list-disc ml-2' : ''}`}
-																key={index}
-															>
+															<li className='text-left' key={index}>
 																{item}
 															</li>
 														))
