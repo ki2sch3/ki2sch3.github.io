@@ -15,9 +15,9 @@ const Portfolio = () => {
 					<section className='px-3 py-2 space-y-2 rounded-md sm:w-72 md:w-92'>
 						<p className='font-medium mb-1'>
 							<a href='https://stocklight.co/' target='_blank' rel='noreferrer' className='hover:underline'>
-								股市光明燈
+								畢業專題 - 股市光明燈
 							</a>
-							<span className='text-xs opacity-80 font-normal'>（並無串接金流）</span>
+							<span className='text-xs opacity-80 font-normal'>（負責前端）</span>
 						</p>
 						<a
 							href='https://www.youtube.com/watch?v=s92-9di9qa4'
