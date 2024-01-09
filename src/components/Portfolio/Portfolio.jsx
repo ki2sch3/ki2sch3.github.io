@@ -96,7 +96,7 @@ const Portfolio = () => {
 							<a href='https://lamamia-blog.vercel.app/' target='_blank' rel='noreferrer' className='hover:underline'>
 								個人部落格
 							</a>
-							<span className='text-xs opacity-80 font-normal'>（後台無法使用，資料庫已移除）</span>
+							<span className='text-xs opacity-80 font-normal'>（資料庫已移除，後台無法使用）</span>
 						</p>
 						<div className='work__mask' onClick={() => setVideo('lamamia-blog')}>
 							<p className='work__mask__title'>
