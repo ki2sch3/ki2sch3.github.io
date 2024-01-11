@@ -17,7 +17,7 @@ const Portfolio = () => {
 							<a href='https://stocklight.co/' target='_blank' rel='noreferrer' className='hover:underline'>
 								畢業專題 - 股市光明燈
 							</a>
-							<span className='text-xs opacity-80 font-normal'>（負責前端）</span>
+							<span className='text-xs opacity-80 font-normal'>（負責前端、UI/UX 設計）</span>
 						</p>
 						<a
 							href='https://www.youtube.com/watch?v=s92-9di9qa4'
