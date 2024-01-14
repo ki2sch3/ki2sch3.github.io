@@ -75,17 +75,12 @@ const Skill = () => {
 			{
 				name: 'Express.js',
 				icon: 'https://img.icons8.com/color/100/express-js.png',
-				desc: '了解如何創建基本路由,搭配 Mongoose 連至 MongoDB 以建立模型',
+				desc: '了解如何創建路由,搭配 Mongoose 連至 MongoDB 以建立模型',
 			},
-			// {
-			// 	name: 'Spring Boot',
-			// 	icon: 'https://img.icons8.com/color/100/spring-logo.png',
-			// 	desc: '學習中',
-			// },
 			{
 				name: 'MySQL',
 				icon: 'https://img.icons8.com/color/100/mysql-logo.png',
-				desc: '熟悉查詢語法',
+				desc: '了解基本的查詢語法',
 			},
 			{
 				name: 'MongoDB',

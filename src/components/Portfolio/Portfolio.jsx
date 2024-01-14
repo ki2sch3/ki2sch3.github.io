@@ -56,6 +56,46 @@ const Portfolio = () => {
 					<section className='px-3 py-2 space-y-2 rounded-md sm:w-72 md:w-92'>
 						<p className='font-medium mb-1'>
 							<a
+								href='https://mern-ecommerce-client-seven.vercel.app/'
+								target='_blank'
+								rel='noreferrer'
+								className='hover:underline'
+							>
+								線上購物網站
+							</a>
+						</p>
+						<div className='work__mask' onClick={() => setVideo('mern-ecommerce')}>
+							<p className='work__mask__title'>
+								<img
+									width='24'
+									height='20'
+									src='https://img.icons8.com/material-outlined/40/ffffff/external-link.png'
+									alt='external-link'
+								/>
+								<span>影片展示</span>
+							</p>
+							<img
+								src='assets/images/mern-ecommerce.png'
+								className='object-cover w-full sm:object-top h-60 sm:h-44'
+								alt='work'
+							/>
+							<div class='work__mask__bg' />
+						</div>
+						<ul className='flex flex-wrap text-xs text-text-primary/80 gap-x-2'>
+							<li># React.js</li>
+							<li># TypeScript</li>
+							<li># Tailwind CSS</li>
+							<li># React Router Dom</li>
+							<li># Headless UI</li>
+							<li># Framer Motion</li>
+							<li># Express.js</li>
+							<li># MongoDB</li>
+							<li># RWD</li>
+						</ul>
+					</section>
+					<section className='px-3 py-2 space-y-2 rounded-md sm:w-72 md:w-92'>
+						<p className='font-medium mb-1'>
+							<a
 								href='https://yelp-clone-react.vercel.app/'
 								target='_blank'
 								rel='noreferrer'
