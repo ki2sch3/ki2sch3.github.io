@@ -50,11 +50,11 @@ const Skill = () => {
 				icon: 'https://img.icons8.com/color/100/sass.png',
 				desc: '了解基本使用方式 (變數、巢狀、混入、繼承)',
 			},
-			{
-				name: 'Bootstrap',
-				icon: 'https://img.icons8.com/color/100/bootstrap--v2.png',
-				desc: '略懂基本使用方式',
-			},
+			// {
+			// 	name: 'Bootstrap',
+			// 	icon: 'https://img.icons8.com/color/100/bootstrap--v2.png',
+			// 	desc: '略懂基本使用方式',
+			// },
 			{
 				name: 'Tailwind CSS',
 				icon: 'https://img.icons8.com/color/100/tailwindcss.png',

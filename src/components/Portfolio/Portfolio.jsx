@@ -19,10 +19,10 @@ const Portfolio = () => {
 			<div id='portfolio' ref={targetRef} className='pt-16 mx-auto'>
 				<h2 className='pb-1 mx-auto mb-4 border-b-4 border-pink-500 w-fit'>小小作品集</h2>
 				<p className='font-light text-center'>以下作品皆可點擊標題前往網站，或者點擊圖片觀看展示影片。</p>
-				<div className='flex flex-col flex-wrap justify-center gap-y-2 gap-x-4 mt-8 sm:flex-row'>
+				<div className='flex flex-col flex-wrap justify-center mt-8 gap-y-2 gap-x-4 sm:flex-row'>
 					<section className='px-3 py-2 space-y-2 rounded-md sm:w-72 md:w-92'>
 						<p>
-							<a href='https://stocklight.co/' target='_blank' rel='noreferrer' className='hover:underline font-medium'>
+							<a href='https://stocklight.co/' target='_blank' rel='noreferrer' className='font-medium hover:underline'>
 								股市光明燈
 							</a>
 							<span className='text-xs opacity-80'>（負責前端、UI/UX 設計）</span>
@@ -31,7 +31,9 @@ const Portfolio = () => {
 							className='work__mask'
 							onClick={() => {
 								setVideo('stocklight')
-								setDescription('')
+								setDescription(
+									'一個結合股市資訊與點燈文化的平台，使用者可通過點燈儀式，查看產業別中具備優秀條件的個股儀表板。'
+								)
 							}}
 						>
 							<p className='work__mask__title'>
@@ -67,7 +69,7 @@ const Portfolio = () => {
 							href='https://mern-ecommerce-client-seven.vercel.app/'
 							target='_blank'
 							rel='noreferrer'
-							className='hover:underline font-medium'
+							className='font-medium hover:underline'
 						>
 							線上購物網站
 						</a>
@@ -113,7 +115,7 @@ const Portfolio = () => {
 							href='https://yelp-clone-react.vercel.app/'
 							target='_blank'
 							rel='noreferrer'
-							className='hover:underline font-medium'
+							className='font-medium hover:underline'
 						>
 							仿 Yelp 網站
 						</a>
@@ -158,7 +160,7 @@ const Portfolio = () => {
 								href='https://lamamia-blog.vercel.app/'
 								target='_blank'
 								rel='noreferrer'
-								className='hover:underline font-medium'
+								className='font-medium hover:underline'
 							>
 								個人部落格
 							</a>
@@ -203,7 +205,7 @@ const Portfolio = () => {
 							href='https://kir4che.github.io/legislative-campaign-official-website/'
 							target='_blank'
 							rel='noreferrer'
-							className='hover:underline font-medium'
+							className='font-medium hover:underline'
 						>
 							立委競選官網
 						</a>
@@ -238,7 +240,7 @@ const Portfolio = () => {
 							href='https://space-tourism-website-livid.vercel.app/'
 							target='_blank'
 							rel='noreferrer'
-							className='hover:underline font-medium'
+							className='font-medium hover:underline'
 						>
 							航空旅遊介紹網站
 						</a>
@@ -273,7 +275,7 @@ const Portfolio = () => {
 							href='https://kir4che.github.io/starbucks-clone/'
 							target='_blank'
 							rel='noreferrer'
-							className='hover:underline font-medium'
+							className='font-medium hover:underline'
 						>
 							切版練習
 						</a>
@@ -294,7 +296,7 @@ const Portfolio = () => {
 							href='https://kir4che.github.io/sushi-man/'
 							target='_blank'
 							rel='noreferrer'
-							className='hover:underline font-medium'
+							className='font-medium hover:underline'
 						>
 							切版練習
 						</a>
