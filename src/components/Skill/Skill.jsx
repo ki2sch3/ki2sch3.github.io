@@ -73,7 +73,7 @@ const Skill = () => {
 				desc: '',
 			},
 			{
-				name: 'Express.js',
+				name: 'Express',
 				icon: 'https://img.icons8.com/color/100/express-js.png',
 				desc: '了解如何創建路由,搭配 Mongoose 連至 MongoDB 以建立模型',
 			},
@@ -86,11 +86,6 @@ const Skill = () => {
 				name: 'MongoDB',
 				icon: 'https://img.icons8.com/color/100/mongodb.png',
 				desc: '了解基本的查詢語法',
-			},
-			{
-				name: 'Mongoose ODM',
-				icon: 'https://img.icons8.com/color/100/mongoose.png',
-				desc: '',
 			},
 		],
 		程式語言: [
@@ -107,12 +102,12 @@ const Skill = () => {
 			{
 				name: 'Java',
 				icon: 'https://img.icons8.com/color/48/java-coffee-cup-logo--v1.png',
-				desc: '熟悉​基本語法,具有簡易視窗程式的開發經驗 (Java Swing)',
+				desc: '了解​基本語法,具有簡易視窗程式的開發經驗 (Java Swing)',
 			},
 			{
 				name: 'Python',
 				icon: 'https://img.icons8.com/color/48/python--v1.png',
-				desc: '熟悉基本語法,具有基礎爬蟲的經驗,使用過 BeautifulSoup、Selenium 套件',
+				desc: '了解基本語法,具有基礎爬蟲的經驗,使用過 BeautifulSoup、Selenium 套件',
 			},
 		],
 		其他工具: [
@@ -124,7 +119,7 @@ const Skill = () => {
 			{
 				name: 'Git',
 				icon: 'https://img.icons8.com/color/100/git.png',
-				desc: '熟悉基本指令',
+				desc: '了解基本指令',
 			},
 			{
 				name: 'Postman',

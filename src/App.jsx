@@ -5,6 +5,7 @@ import Experience from './components/Experience/Experience'
 import Layout from './components/Layout/Layout'
 import Portfolio from './components/Portfolio/Portfolio'
 import Skill from './components/Skill/Skill'
+import Achievement from './components/Achievement/Achievement'
 
 const App = () => {
 	const { hash, key } = useLocation()
@@ -50,6 +51,7 @@ const App = () => {
 			<Skill />
 			<Portfolio />
 			<Experience />
+			<Achievement />
 			<Contact />
 		</Layout>
 	)

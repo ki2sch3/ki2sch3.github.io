@@ -30,7 +30,7 @@ const About = () => {
 					</div>
 				</div>
 			</div>
-			<div className='max-w-4xl px-4 py-12 mx-auto space-y-12 lg:px-0'>
+			<div className='max-w-4xl px-[2.8vw] py-12 mx-auto space-y-12 lg:px-0'>
 				<section>
 					<h2 className='pb-1 mb-5 border-b-4 border-pink-500 w-fit'>性格特質</h2>
 					<div className='space-y-3'>
@@ -64,7 +64,7 @@ const About = () => {
 						</div>
 						<p className='text-sm tracking-wide opacity-60'>2020.09 - 2024.06</p>
 					</div>
-					<div className='flex flex-col-reverse justify-between gap-2 xs:flex-row xs:gap-0'>
+					{/* <div className='flex flex-col-reverse justify-between gap-2 xs:flex-row xs:gap-0'>
 						<div className='flex gap-3'>
 							<img src='assets/images/slhs.jpg' className='object-cover w-16' alt='slhs' />
 							<div>
@@ -73,6 +73,45 @@ const About = () => {
 							</div>
 						</div>
 						<p className='text-sm tracking-wide opacity-60'>2017.09 - 2020.06</p>
+					</div> */}
+				</section>
+				<section>
+					<h2 className='pb-1 mb-5 border-b-4 border-pink-500 w-fit'>比賽經歷</h2>
+					<div className='mb-6 space-y-2'>
+						<p>
+							<span className='text-pink-700 text-lg font-medium'>精誠金獎</span>
+							<span className='text-sm'>（第一屆臺北科大金融科技論壇暨資財之星專題成果發表會）</span>
+						</p>
+						<div className='flex justify-between items-start gap-6'>
+							<img src='assets/images/award-of-ntut.jpg' className='object-cover rounded flex-1 max-w-lg' alt='ntut' />
+							<div className='flex-1 space-y-4'>
+								<div className='flex items-center mb-4 justify-between'>
+									<h3 className='leading-4'>股市光明燈</h3>
+									<button className='bg-pink-500 hover:bg-pink-600 text-xs text-white rounded-full px-2.5 py-1'>
+										<a href='https://www.youtube.com/watch?v=s92-9di9qa4&t=1s' target='_blank' rel='noreferrer'>
+											宣傳影片
+										</a>
+									</button>
+								</div>
+								<p>
+									於團隊中負責 <strong>UI/UX 設計、前端開發</strong>，並協助後端串接 API。
+								</p>
+								<p className='space-y-2'>
+									<strong>主要功能：</strong>
+									<ul className='list-disc text-sm space-y-1.5 pl-4'>
+										<li>個股的基本面、技術分析</li>
+										<li>天氣相關性分析</li>
+										<li>股市 AI 問答</li>
+										<li>點燈系統：讓使用者選定產業類別，並通過條件篩選出該產業中最具潛力的個股，最後以儀表板呈現。</li>
+										<li>
+											個股儀表板：包含財務比率、根據文本做分析輸出情緒分數、重要圖表資訊、相關新聞，以及透過 GPT-4
+											模型和資料萃取技術 (RAG) 技術的 AI 聊天機器人。
+										</li>
+										<li>自選股清單</li>
+									</ul>
+								</p>
+							</div>
+						</div>
 					</div>
 				</section>
 				<section>
