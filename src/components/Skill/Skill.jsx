@@ -28,7 +28,7 @@ const Skill = () => {
 			{
 				name: 'React.js',
 				icon: 'https://img.icons8.com/color/100/react-native.png',
-				desc: '熟悉使用 React.js 開發網站, React Router v6 管理路由',
+				desc: '了解 React.js 開發, React Router v6 管理路由',
 			},
 			// {
 			// 	name: 'Redux',

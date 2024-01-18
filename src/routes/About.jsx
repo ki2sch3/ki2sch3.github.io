@@ -39,7 +39,7 @@ const About = () => {
 							<img src='assets/images/beaver.png' className='object-contain w-36' alt='16personalities' />
 							<ul className='pl-5 leading-9 list-disc'>
 								<li>責任感極強的使命必達型工作者</li>
-								<li>對任何事都認真而專注，擁有縝密、嚴謹的工作思維。</li>
+								<li>認真且專注於任何事情</li>
 								<li>善於訂定規範、整理 + 優化的雙軌式工作風格</li>
 							</ul>
 						</div>
