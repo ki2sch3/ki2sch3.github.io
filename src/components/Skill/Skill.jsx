@@ -35,11 +35,11 @@ const Skill = () => {
 			// 	icon: 'https://img.icons8.com/color/100/redux.png',
 			// 	desc: '了解基本概念,略懂 RTK 基本使用方式',
 			// },
-			{
-				name: 'Next.js',
-				icon: 'https://img.icons8.com/color/100/nextjs.png',
-				desc: '可用 Next.js 開發網站,使用過 NextAuth 管理登入狀態、實作第三方登入',
-			},
+			// {
+			// 	name: 'Next.js',
+			// 	icon: 'https://img.icons8.com/color/100/nextjs.png',
+			// 	desc: '可用 Next.js 開發網站,使用過 NextAuth 管理登入狀態、實作第三方登入',
+			// },
 			{
 				name: 'TypeScript',
 				icon: 'https://img.icons8.com/color/100/typescript.png',
@@ -125,16 +125,6 @@ const Skill = () => {
 				name: 'Postman',
 				icon: 'https://img.icons8.com/external-tal-revivo-color-tal-revivo/100/external-postman-is-the-only-complete-api-development-environment-logo-color-tal-revivo.png',
 				desc: '了解如何測試 API',
-			},
-			{
-				name: 'Figma',
-				icon: 'https://img.icons8.com/color/100/figma--v1.png',
-				desc: '依照 Figma 進行切版',
-			},
-			{
-				name: 'Adobe XD',
-				icon: 'https://img.icons8.com/color/100/adobe-xd--v1.png',
-				desc: '依照 Adobe XD 進行切版',
 			},
 			{
 				name: 'WordPress',

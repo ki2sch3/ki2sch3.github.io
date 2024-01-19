@@ -111,14 +111,18 @@ const Portfolio = () => {
 						</ul>
 					</section>
 					<section className='px-3 py-2 space-y-2 rounded-md sm:w-72 md:w-92'>
-						<a
-							href='https://yelp-clone-react.vercel.app/'
-							target='_blank'
-							rel='noreferrer'
-							className='font-medium hover:underline'
-						>
-							仿 Yelp 網站
-						</a>
+						<p>
+							<a
+								href='https://yelp-clone-react.vercel.app/'
+								target='_blank'
+								rel='noreferrer'
+								className='font-medium hover:underline'
+							>
+								仿 Yelp 網站
+							</a>
+							<span className='text-xs opacity-80'>（需開啟 cors anywhere 才能使用）</span>
+						</p>
+
 						<div
 							className='work__mask'
 							onClick={() => {
