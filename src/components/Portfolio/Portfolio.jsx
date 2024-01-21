@@ -78,7 +78,7 @@ const Portfolio = () => {
 							onClick={() => {
 								setVideo('mern-ecommerce')
 								setDescription(
-									'具備前後台的線上購物網站，前台提供會員購買商品，並下單進行付款 (暫無串接金流)，而訂單記錄會顯示於會員資料；後台則提供管理員新增 / 刪除 / 編輯商品、訊息、訂單管理，以及查看所有顧客的訂單資訊。\n\n∙ 使用 Fetch + Async/await 串接後端 API\n∙ 商品頁透過 useState、React Router (useNavigate、useParams) 可依照推薦、熱銷以及商品類型來分類。\n∙ 透過 React Router (Link、useParams) 可點擊商品卡片連結到該商品的詳細資料\n∙ 利用 Context API 同步購物車狀態\n∙ 透過 Swiper 建立推薦商品輪播、動態輪播背景\n∙ 使用 Frame Motion 製作跑馬燈\n∙ 使用 Headless UI 設計 FAQ、表單的彈跳視窗\n∙ 利用 js-cookie 儲存登入狀態\n\n∙ 使用 Express + TypeScript + Mongoose 建立後端伺服器\n∙ 採用 RESTful 風格撰寫 API，以操作資料庫的增刪查改。\n∙ 使用 express-session 將使用者資料保存在伺服器端'
+									'具備前後台的線上購物網站，前台提供會員購買商品，並下單進行付款 (暫無串接金流)，而訂單記錄會顯示於會員資料；後台則提供管理員新增 / 刪除 / 編輯商品、訊息、訂單管理，以及查看所有顧客的訂單資訊。\n\n∙ 以 Fetch 串接後端 API\n∙ 商品頁透過 useState、React Router (useNavigate、useParams) 可依照推薦、熱銷以及商品類型來分類。\n∙ 透過 React Router (Link、useParams) 可點擊商品卡片連結到該商品的詳細資料\n∙ 利用 Context API 同步購物車狀態\n∙ 透過 Swiper 建立推薦商品輪播、動態輪播背景\n∙ 使用 Frame Motion 製作跑馬燈\n∙ 使用 Headless UI 設計 FAQ、表單的彈跳視窗\n∙ 利用 js-cookie 儲存登入狀態\n\n∙ 使用 Express + TypeScript + Mongoose 建立後端伺服器\n∙ 採用 RESTful 風格撰寫 API，以操作資料庫的增刪查改。\n∙ 使用 express-session 將使用者資料保存在伺服器端'
 								)
 							}}
 						>
@@ -122,13 +122,12 @@ const Portfolio = () => {
 							</a>
 							<span className='text-xs opacity-80'>（需開啟 cors anywhere 才能使用）</span>
 						</p>
-
 						<div
 							className='work__mask'
 							onClick={() => {
 								setVideo('yelp-clone-react')
 								setDescription(
-									'使用者可以根據地點或類別查詢附近店家，還可以透過篩選器進行更精準的搜尋，旁邊有 Google Maps 顯示店家位置。'
+									'使用者可以根據地點或類別查詢附近店家，還可以透過篩選器進行更精準的搜尋，旁邊有 Google Maps 顯示店家位置。\n\n∙ 搜尋按鈕是先用useState取得輸入資訊，再使用 useNavigate 進行跳轉。\n∙ 使用 useState 更新篩選器，並用 useSearchParams 的 set 更改網址的參數。\n∙ 清除篩選則是藉由 useState 先將資料設為預設，再用 useSearchParams 的 delete 清空網址的參數。\n∙ 先以 useSearchParams 的 get 取得網址的參數，將參數傳入 url，並以 Fetch 串接 Yelp Fusion API 取得店家資訊。\n∙ 跨域問題透過 cors-anywhere 暫時處理\n∙ 透過 React Google Maps 呈現店家於地圖上的位置'
 								)
 							}}
 						>
