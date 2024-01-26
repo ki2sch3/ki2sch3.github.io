@@ -158,52 +158,6 @@ const Portfolio = () => {
 						</ul>
 					</section>
 					<section className='px-3 py-2 space-y-2 rounded-md sm:w-72 md:w-92'>
-						<p>
-							<a
-								href='https://lamamia-blog.vercel.app/'
-								target='_blank'
-								rel='noreferrer'
-								className='font-medium hover:underline'
-							>
-								個人部落格
-							</a>
-							<span className='text-xs opacity-80'>（資料庫已移除，後台無法使用）</span>
-						</p>
-						<div
-							className='work__mask'
-							onClick={() => {
-								setVideo('lamamia-blog')
-								setDescription('使用者登入後可在後台新增 / 刪除文章，並於前台查看所有文章。')
-							}}
-						>
-							<p className='work__mask__title'>
-								<img
-									width='24'
-									height='20'
-									src='https://img.icons8.com/material-outlined/40/ffffff/external-link.png'
-									alt='external-link'
-								/>
-								<span>影片展示</span>
-							</p>
-							<img
-								src='assets/images/lamamia-blog.png'
-								className='object-cover w-full sm:object-top h-60 sm:h-44'
-								alt='work'
-							/>
-							<div class='work__mask__bg' />
-						</div>
-						<ul className='flex flex-wrap text-xs text-text-primary/80 gap-x-2'>
-							<li># Next.js</li>
-							<li># Mongoose ODM</li>
-							<li># TypeScript</li>
-							<li># SWR</li>
-							<li># NextAuth</li>
-							<li># Tailwind CSS</li>
-							<li># RWD</li>
-							<li># SendGrid Mail</li>
-						</ul>
-					</section>
-					<section className='px-3 py-2 space-y-2 rounded-md sm:w-72 md:w-92'>
 						<a
 							href='https://kir4che.github.io/legislative-campaign-official-website/'
 							target='_blank'
