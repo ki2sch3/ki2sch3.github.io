@@ -64,7 +64,7 @@ const About = () => {
 						</div>
 						<p className='text-sm tracking-wide opacity-60'>2020.09 - 2024.06</p>
 					</div>
-					{/* <div className='flex flex-col-reverse justify-between gap-2 xs:flex-row xs:gap-0'>
+					<div className='flex flex-col-reverse justify-between gap-2 xs:flex-row xs:gap-0'>
 						<div className='flex gap-3'>
 							<img src='assets/images/slhs.jpg' className='object-cover w-16' alt='slhs' />
 							<div>
@@ -73,7 +73,7 @@ const About = () => {
 							</div>
 						</div>
 						<p className='text-sm tracking-wide opacity-60'>2017.09 - 2020.06</p>
-					</div> */}
+					</div>
 				</section>
 				<section>
 					<h2 className='pb-1 mb-5 border-b-4 border-pink-500 w-fit'>比賽經歷</h2>
@@ -82,8 +82,12 @@ const About = () => {
 							<span className='text-pink-700 text-lg font-medium'>精誠金獎</span>
 							<span className='text-sm'>（第一屆臺北科大金融科技論壇暨資財之星專題成果發表會）</span>
 						</p>
-						<div className='flex justify-between items-start gap-6'>
-							<img src='assets/images/award-of-ntut.jpg' className='object-cover rounded flex-1 max-w-lg' alt='ntut' />
+						<div className='flex lg:flex-row flex-col justify-between items-start gap-6'>
+							<img
+								src='assets/images/award-of-ntut.jpg'
+								className='object-cover rounded flex-1 lg:max-w-lg'
+								alt='ntut'
+							/>
 							<div className='flex-1 space-y-4'>
 								<div className='flex items-center mb-4 justify-between'>
 									<h3 className='leading-4'>股市光明燈</h3>
