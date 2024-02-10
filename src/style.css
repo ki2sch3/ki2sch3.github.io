@@ -37,24 +37,11 @@ button {
 	@apply w-8 h-8 cursor-pointer;
 }
 
-.gmail__icon:hover img {
-	@apply duration-300 ease-in scale-105;
-	content: url('assets/icons/gmail-color.png');
-}
-
-.linkedin__icon:hover img {
-	@apply duration-300 ease-in scale-105;
-	content: url('assets/icons/linkedin-color.png');
-}
-
-.instagram__icon:hover img {
-	@apply duration-300 ease-in scale-105;
-	content: url('assets/icons/instagram-color.png');
-}
-
+.gmail__icon:hover img,
+.linkedin__icon:hover img,
+.instagram__icon:hover img,
 .github__icon:hover img {
 	@apply duration-300 ease-in scale-105;
-	content: url('assets/icons/github-color.png');
 }
 
 .work__mask {
