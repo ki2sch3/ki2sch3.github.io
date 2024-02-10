@@ -5,15 +5,15 @@ const socials = [
 	},
 	{
 		title: 'linkedin',
-		href: 'https://www.linkedin.com/in/kir4che/',
+		link: 'https://www.linkedin.com/in/kir4che',
 	},
 	{
 		title: 'github',
-		href: 'https://github.com/kir4che',
+		link: 'https://github.com/kir4che',
 	},
 	{
 		title: 'instagram',
-		href: 'https://www.instagram.com/kir4che/',
+		link: 'https://www.instagram.com/kir4che',
 	},
 ]
 
