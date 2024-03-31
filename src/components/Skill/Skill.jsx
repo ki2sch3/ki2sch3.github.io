@@ -13,125 +13,110 @@ const Skill = () => {
 			{
 				name: 'HTML5',
 				icon: 'https://img.icons8.com/color/100/html-5--v1.png',
-				desc: '',
+				desc: ''
 			},
 			{
 				name: 'CSS3',
 				icon: 'https://img.icons8.com/color/100/css3.png',
-				desc: '',
+				desc: ''
 			},
 			{
 				name: 'JavaScript',
 				icon: 'https://img.icons8.com/color/100/javascript--v1.png',
-				desc: '熟悉基本語法 (ES6+),AJAX 串接第三方 API,運用 Apache ECharts 視覺化圖表庫',
+				desc: '熟悉基本語法 (ES6+),AJAX 串接第三方 API,運用 Apache ECharts 視覺化圖表庫'
 			},
 			{
 				name: 'React.js',
 				icon: 'https://img.icons8.com/color/100/react-native.png',
-				desc: '了解 React.js 開發, React Router v6 管理路由',
+				desc: '了解 React.js 開發, React Router v6 管理路由'
 			},
-			// {
-			// 	name: 'Redux',
-			// 	icon: 'https://img.icons8.com/color/100/redux.png',
-			// 	desc: '了解基本概念,略懂 RTK 基本使用方式',
-			// },
-			// {
-			// 	name: 'Next.js',
-			// 	icon: 'https://img.icons8.com/color/100/nextjs.png',
-			// 	desc: '可用 Next.js 開發網站,使用過 NextAuth 管理登入狀態、實作第三方登入',
-			// },
+			{
+				name: 'Redux',
+				icon: 'https://img.icons8.com/color/100/redux.png',
+				desc: '了解基本概念,略懂 RTK 基本使用方式'
+			},
 			{
 				name: 'TypeScript',
 				icon: 'https://img.icons8.com/color/100/typescript.png',
-				desc: '了解基本語法,了解如何運用型別化名、介面',
+				desc: '了解基本語法,了解如何運用型別化名、介面'
 			},
 			{
 				name: 'Sass',
 				icon: 'https://img.icons8.com/color/100/sass.png',
-				desc: '了解基本使用方式 (變數、巢狀、混入、繼承)',
+				desc: '了解基本使用方式 (變數、巢狀、混入、繼承)'
 			},
-			// {
-			// 	name: 'Bootstrap',
-			// 	icon: 'https://img.icons8.com/color/100/bootstrap--v2.png',
-			// 	desc: '略懂基本使用方式',
-			// },
 			{
 				name: 'Tailwind CSS',
 				icon: 'https://img.icons8.com/color/100/tailwindcss.png',
-				desc: '熟悉 Tailwind CSS,了解如何自訂樣式,切版 RWD 網站',
-			},
-			{
-				name: 'Material UI',
-				icon: 'assets/icons/materialui.png',
-				desc: '',
-			},
+				desc: '熟悉 Tailwind CSS,了解如何自訂樣式,切版 RWD 網站'
+			}
 		],
 		後端開發: [
 			{
 				name: 'Node.js',
 				icon: 'https://img.icons8.com/color/100/nodejs.png',
-				desc: '',
+				desc: ''
 			},
 			{
 				name: 'Express',
 				icon: 'https://img.icons8.com/color/100/express-js.png',
-				desc: '了解如何創建路由,搭配 Mongoose 連至 MongoDB 以建立模型',
+				desc: '了解如何創建路由,搭配 Mongoose 連至 MongoDB 以建立模型'
 			},
 			{
 				name: 'MySQL',
 				icon: 'https://img.icons8.com/color/100/mysql-logo.png',
-				desc: '了解基本的查詢語法',
+				desc: '了解基本的查詢語法'
 			},
 			{
 				name: 'MongoDB',
 				icon: 'https://img.icons8.com/color/100/mongodb.png',
-				desc: '了解基本的查詢語法',
-			},
+				desc: '了解基本的查詢語法'
+			}
 		],
 		程式語言: [
 			{
 				name: 'JavaScript',
 				icon: 'https://img.icons8.com/color/100/javascript--v1.png',
-				desc: '',
+				desc: ''
 			},
 			{
 				name: 'TypeScript',
 				icon: 'https://img.icons8.com/color/100/typescript.png',
-				desc: '',
+				desc: ''
 			},
 			{
 				name: 'Java',
 				icon: 'https://img.icons8.com/color/48/java-coffee-cup-logo--v1.png',
-				desc: '了解​基本語法,具有簡易視窗程式的開發經驗 (Java Swing)',
+				desc: '了解​基本語法,具有簡易視窗程式的開發經驗 (Java Swing)'
 			},
 			{
 				name: 'Python',
 				icon: 'https://img.icons8.com/color/48/python--v1.png',
-				desc: '了解基本語法,具有基礎爬蟲的經驗,使用過 BeautifulSoup、Selenium 套件',
-			},
+				desc: '了解基本語法,具有基礎爬蟲的經驗,使用過 BeautifulSoup、Selenium 套件'
+			}
 		],
 		其他工具: [
 			{
 				name: 'GitHub',
 				icon: 'https://img.icons8.com/fluency/100/github.png',
-				desc: '使用 GitHub Pages 部署靜態網頁',
+				desc: '使用 GitHub Pages 部署靜態網頁'
 			},
 			{
 				name: 'Git',
 				icon: 'https://img.icons8.com/color/100/git.png',
-				desc: '了解基本指令',
+				desc: '了解基本指令'
 			},
 			{
 				name: 'Postman',
 				icon: 'https://img.icons8.com/external-tal-revivo-color-tal-revivo/100/external-postman-is-the-only-complete-api-development-environment-logo-color-tal-revivo.png',
-				desc: '了解如何測試 API',
+				desc: '了解如何測試 API'
 			},
 			{
 				name: 'WordPress',
 				icon: 'https://img.icons8.com/fluency/100/wordpress.png',
-				desc: '有自己的 WordPress 部落格，使用 Elementor 撰寫文章。',
-			},
-		],
+				desc: '有自己的 WordPress 部落格，了解使用 Elementor 撰寫文章。'
+			}
+		]
 	}
 
 	return (
@@ -150,7 +135,7 @@ const Skill = () => {
 					style={{
 						'--swiper-navigation-color': '#FF7EA1',
 						'--swiper-pagination-color': '#FF7EA1',
-						'--swiper-navigation-size': '1.25rem',
+						'--swiper-navigation-size': '1.25rem'
 					}}
 					className='max-w-screen-md bg-white rounded-xl'
 					modules={[Navigation, Pagination, Mousewheel, Keyboard]}
@@ -183,7 +168,7 @@ const Skill = () => {
 													place='bottom'
 													style={{
 														backgroundColor: '#333333',
-														color: '#fff',
+														color: '#fff'
 													}}
 												/>
 												<p>{skill.name}</p>
