@@ -11,7 +11,7 @@ const Header = () => {
 				<div className='flex flex-wrap items-center justify-between max-w-screen-xl mx-auto'>
 					<a href='/' className='flex'>
 						<img src='assets/images/logo.png' className='h-8' alt='Logo' />
-						<span className='self-center text-xl font-semibold whitespace-nowrap'>kir4che</span>
+						<span className='self-center text-xl font-semibold whitespace-nowrap'>kir2ch3</span>
 					</a>
 					<div className='items-center justify-between hidden w-full lg:flex lg:w-auto'>
 						<ul className='flex flex-col text-sm font-medium lg:flex-row lg:space-x-8'>
