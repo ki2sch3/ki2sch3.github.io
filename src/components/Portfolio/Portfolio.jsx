@@ -194,7 +194,7 @@ const Portfolio = () => {
 					</section>
 					<section className='px-3 py-2 space-y-2 rounded-md sm:w-72 md:w-92'>
 						<a
-							href='https://kir2ch3.github.io/sushi-man/'
+							href='https://ki2sch3.github.io/sushi-man/'
 							target='_blank'
 							rel='noreferrer'
 							className='font-medium hover:underline'

@@ -9,11 +9,11 @@ const socials = [
 	},
 	{
 		title: 'github',
-		link: 'https://github.com/kir2ch3'
+		link: 'https://github.com/ki2sch3'
 	},
 	{
 		title: 'instagram',
-		link: 'https://www.instagram.com/kir2ch3'
+		link: 'https://www.instagram.com/ki2sch3'
 	}
 ]
 
