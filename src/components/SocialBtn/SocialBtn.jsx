@@ -5,7 +5,7 @@ const socials = [
 	},
 	{
 		title: 'linkedin',
-		link: 'https://www.linkedin.com/in/kir2ch3'
+		link: 'https://www.linkedin.com/in/mollysu'
 	},
 	{
 		title: 'github',
